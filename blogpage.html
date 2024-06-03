@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog page</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--Header part-->
+    <header class="header">
+        <aside>
+          <div class="header_imformation">
+            <div class="icons">
+              <img class="header-icon" src="images/telephone.png" alt="">
+              <p class=" ">018******</p>
+            </div>
+            <div class="icons">
+              <img class="header-icon" src="images/mail.png" alt="">
+              <p class=" ">gulliverstravels@gmail.com</p>
+            </div>
+            <div class="icons">
+              <img class="header-icon" src="images/travel.png" alt="">
+              <p class=" ">Dhaka, Bangladesh</p>
+            </div>
+          </div>
+        </aside>
+    </header>
+
+     <!--Header nav-->
+     <nav>
+
+        <div class="header-nav">
+          <div class="navbar bg-base-100">
+              <div class="flex-1">
+                <a class="metal-mania-regular" href=" ">Gulliver's Travels</a>
+              </div>
+          </div>  
+          
+          <div class="header-nav-buttons">
+            <a class="roboto-medium" style="color: rgb(207, 24, 24);" href="index.html">Home</a>
+            <a class="roboto-medium" href=" ">Hotels</a>
+            <a class="roboto-medium" href="blogpage.html">Blog</a>
+            <a class="roboto-medium" href=" ">About</a>
+            <a class="roboto-medium" href="contact.html">Contact</a>
+            <a class="roboto-medium" href=" ">Register</a>
+
+          </div>
+        </div>
+
+      </nav>
+
+    <!--main body starts from here-->
+      <main>
+        <!--hero part-->
+        <div class="hero h-72 " style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold text-white">BLOG</h1>
+                <p class="mb-5  text-white">Recent Travel blog posts</p>
+                <button style="border: 1px solid #ea1313; border-radius: 4px; padding: 5px 10px; background-color: #e65d5d; font-weight: bold;" >Write Blog</button>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="whole_blog_cards">
+            <div class="blog-items">
+            <h3 style="text-align: center; font-weight: bold;margin-top: 37px; margin-left: 700px;">BLOG POSTS</h3>
+            <div class="dropdown dropdown-end mt-8 mr-4">
+              <div tabindex="0" role="button" class="btn m-1 bg-red-500 text-white font-bold">Highlights</div>
+              <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-yellow-100 rounded-box w-52">
+                <h2 style="font-weight: bold;">Places You Must Visit</h2>
+                <li><a>Jahangirnagar University</a></li>
+                <li><a>Dhaka University</a></li>
+                <li><a>Bangabandhu Military Museum</a></li>
+                <li><a>Lalbagh Fort</a></li>
+                <li><a>Ahfan Manjil</a></li>
+                <li><a>Baitul Mukarram Mosque</a></li>
+                
+              </ul>
+            </div>
+            </div>
+            <!--blog cards-->
+
+            <div class="blog_cards">
+
+
+              <!--first card-->
+              <div class="blog_card w-96 bg-base-100 ">
+                <figure><img style="height: 250px; width: 400px;" src="images/du 1.jpeg" alt="Shoes" /></figure>
+                <div class="card-body text-center ">
+                  <h2 class="blog-card-title">University of Dhaka</h2>
+                  <p>Dhaka University, Dhaka </p>
+                  <div class="card-actions">
+                    <a style="margin: auto;" href="places/DU.html"><button class="btn m-auto">Explore</button></a>
+                  </div>
+                </div>
+            </div>
+
+                
+                <!--second card-->
+                <div class="blog_card w-96 bg-base-100  ">
+                    <figure><img style="height: 250px; width:400px ;" src="images/ahsan-manjil.jpg" alt="Shoes" /></figure>
+                    <div class="card-body text-center ">
+                      <h2 class="blog-card-title">Ahsan Manjil</h2>
+                      <p>Old City Old Dhaka, Dhaka</p>
+                      <div class="card-actions justify-end">
+                        <a style="margin: auto;" href="places/ahsanmanjil.html"><button class="btn  m-auto">Explore</button></a>
+                      </div>
+                    </div>
+                </div>
+
+                <!--third card-->
+                <div class="blog_card w-96 bg-base-100 ">
+                    <figure><img style="height: 250px; width: 400px;" src="images/lalbagh 2nd.jpeg" alt="Shoes" /></figure>
+                    <div class="card-body text-center ">
+                      <h2 class="blog-card-title">Lalbagh Fort</h2>
+                      <p>Lalbagh rd, dhaka -1211
+                      </p>
+                      <div class="card-actions">
+                        <a style="margin: auto;" href="places/lalbaghFort.html"><button class="btn  m-auto">Explore</button></a>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="blog_cards">
+
+                <!--first card-->
+                <div class="blog_card w-96 bg-base-100 ">
+                    <figure><img style="height: 250px; width: 400px;" src="images/smrity1.jpg" alt="Shoes" /></figure>
+                    <div class="card-body text-center ">
+                      <h2 class="blog-card-title">National Martyr's Monument</h2>
+                      <p>Discover meticulously curated exhibits that showcase a wide array of artifacts, weaponry, and interactive displays.</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn  m-auto">Explore</button>
+                      </div>
+                    </div>
+                </div>
+
+                
+                <!--second card-->
+                <div class="blog_card w-96 bg-base-100  ">
+                    <figure><img style="height: 250px; width:400px ;" src="images/shahid-minar1.jpg" alt="Shoes" /></figure>
+                    <div class="card-body text-center ">
+                      <h2 class="blog-card-title">Central Shaheed Minar</h2>
+                      <p>Discover meticulously curated exhibits that showcase a wide array of artifacts, weaponry, and interactive displays.</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn m-auto">Explore</button>
+                      </div>
+                    </div>
+                </div>
+
+                <!--third card-->
+                <div class="blog_card w-96 bg-base-100 ">
+                    <figure><img style="height: 250px; width: 400px;" src="images/botanical 2.jpeg" alt="Shoes" /></figure>
+                    <div class="card-body text-center ">
+                      <h2 class="blog-card-title">Botanical Garden</h2>
+                      <p>National botanical gardens <br>
+                        Zoo road, mirpur, dhaka-1216
+                        </p>
+                      <div class="card-actions justify-end">
+                        <a style="margin: auto;" href="places/Botanical.html"><button class="btn  m-auto">Explore</button></a>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="blog_cards">
+
+                 <!--first card-->
+                 <div class="blog_card w-96 bg-base-100 ">
+                  <figure><img style="height: 250px; width: 400px;" src="images/mosque-1.jpg" alt="Shoes" /></figure>
+                  <div class="card-body text-center ">
+                    <h2 class="blog-card-title">Baitul Mukarram Mosque</h2>
+                    <p>Topkhana Road, Dhaka</p>
+                    <div class="card-actions justify-end">
+                      <a style="margin: auto;" href="places/baitul.html"><button class="btn  m-auto">Explore</button></a>
+                    </div>
+                  </div>
+              </div>
+
+
+                
+                <!--second card-->
+                <div class="blog_card w-96 bg-base-100  ">
+                    <figure><img style="height: 250px; width:400px ;" src="images/buriganga1.jpeg" alt="Shoes" /></figure>
+                    <div class="card-body text-center ">
+                      <h2 class="blog-card-title">Buriganga Rever</h2>
+                      <p>Discover meticulously curated exhibits that showcase a wide array of artifacts, weaponry, and interactive displays.</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn m-auto">Explore</button>
+                      </div>
+                    </div>
+                </div>
+
+                <!--third card-->
+                <div class="blog_card w-96 bg-base-100 ">
+                    <figure><img style="height: 250px; width: 400px;" src="images/hatirjhil1.jpg" alt="Shoes" /></figure>
+                    <div class="card-body text-center ">
+                      <h2 class="blog-card-title">Hetir Jheel</h2>
+                      <p>Discover meticulously curated exhibits that showcase a wide array of artifacts, weaponry, and interactive displays.</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn  m-auto">Explore</button>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+            </div>
+              
+
+              
+          </div>
+
+      </main>
+
+
+
+
+
+     <!--Footer Part-->
+     <footer class="footer p-10 bg-neutral text-neutral-content">
+      <nav>
+        <h6 class="footer-title">Need Help?</h6> 
+        <a class=" ">Call Us</a>
+        <a class=" ">018********</a> <br>
+        <a class=" ">Email Us</a>
+        <a class=" ">gulliverstravels@gmail.com</a>
+        
+      </nav> 
+      <nav>
+        <h6 class="footer-title">The Company</h6> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cancellation policy</a>
+        <a class="link link-hover">Refund policy</a>
+      </nav> 
+      <nav>
+        <h6 class="footer-title">Support</h6> 
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Affiliate Program</a> 
+        <div class="flex gap-3">
+          <img style="height: 30px;" src="images/whatsapp.png" alt="">
+          <img style="height: 30px;" src="images/youtube.png" alt="">
+          <img style="height: 30px;" src="images/facebook.png" alt="">
+        </div>
+        
+      </nav>
+  </footer>
+
+  <footer class="footer footer-center p-4 bg-base-300 text-base-content">
+      <aside>
+        <p>Copyright © 2024 - All right reserved by Gulliver's Travels Ltd</p>
+      </aside>
+  </footer>
+
+
+
+
+      <link rel="stylesheet" href="style.css">
+</body>
+</html>
